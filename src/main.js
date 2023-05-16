@@ -6,7 +6,7 @@ import NetworksAbi from '../contract/Networks.abi.json'
 import erc20Abi from "../contract/erc20.abi.json"
 
 const ERC20_DECIMALS = 18
-const APaddress = "0xbf2Ac58D115f2458E67c205699Ec461BC12b75A6"
+const APaddress = "0x5cdE9a1328Ded9904D10344D7B3516DfBdaFCd9c"
 const cUSDContractAddress = "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1"
 
 let kit
@@ -212,7 +212,7 @@ window.addEventListener("load", async () => {
 
   })
 
-  
+
   document.querySelector("#DataMarket").addEventListener("click", async (e) => {
     if(e.target.className.includes("BuyBtn")) {
       const index = e.target.id
